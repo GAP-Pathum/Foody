@@ -42,3 +42,22 @@
     padding: 1vw 2.3vw;
     border-radius: 50px;
 }
+
+@media (max-width: 1050px){
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 900px){
+   
+    .header-contents{
+        max-width: 55%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
